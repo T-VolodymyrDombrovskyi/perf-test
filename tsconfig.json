@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "sourceMap": true,
+    "declaration": true,
+    "incremental": true,
+    "sourceRoot": "./src",
+    "outDir": "./dist",
+    "types": ["node"]
+  }
+}
