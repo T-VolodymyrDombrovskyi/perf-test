@@ -15,7 +15,7 @@ function withNewAssigns(params: { id: number; text: string }) {
 
   performance.mark('start');
 
-  for (let i = 0; i < 1 * 1000 * 1000 * 20; i++) {
+  for (let i = 0; i < 1 * 1000 * 1000 * 50; i++) {
     const res = withNewAssigns({ id: i, text: `${i}` });
 
     result.push(res);
